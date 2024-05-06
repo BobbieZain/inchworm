@@ -1,0 +1,4 @@
+source;share/movement/local_setup.bash
+source;share/movement/local_setup.dsv
+source;share/movement/local_setup.sh
+source;share/movement/local_setup.zsh

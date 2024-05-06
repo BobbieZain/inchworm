@@ -1,0 +1,21 @@
+[0.924s] Invoking command in '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description': PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/prefix_override:/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/final_description build --build-base /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build install --record /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/install.log --single-version-externally-managed install_data
+[1.305s] running egg_info
+[1.306s] writing ../build/final_description/final_description.egg-info/PKG-INFO
+[1.306s] writing dependency_links to ../build/final_description/final_description.egg-info/dependency_links.txt
+[1.306s] writing entry points to ../build/final_description/final_description.egg-info/entry_points.txt
+[1.306s] writing requirements to ../build/final_description/final_description.egg-info/requires.txt
+[1.307s] writing top-level names to ../build/final_description/final_description.egg-info/top_level.txt
+[1.310s] reading manifest file '../build/final_description/final_description.egg-info/SOURCES.txt'
+[1.311s] writing manifest file '../build/final_description/final_description.egg-info/SOURCES.txt'
+[1.312s] running build
+[1.312s] running build_py
+[1.312s] running install
+[1.312s] running install_lib
+[1.314s] running install_data
+[1.315s] copying urdf/final.gazebo -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/urdf
+[1.315s] running install_egg_info
+[1.318s] removing '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages/final_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.318s] Copying ../build/final_description/final_description.egg-info to /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages/final_description-0.0.0-py3.10.egg-info
+[1.319s] running install_scripts
+[1.347s] writing list of installed files to '/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/install.log'
+[1.378s] Invoked command in '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description' returned '0': PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/prefix_override:/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/final_description build --build-base /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build install --record /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/install.log --single-version-externally-managed install_data

@@ -1,0 +1,188 @@
+[0.200s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.200s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7719c9f689d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7719ca095a20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7719ca095a20>>, mixin_verb=('build',))
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.366s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/boz/MEng-project-9-2023/simulation/urdf2'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(final_description) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(final_description) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(final_description) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(final_description) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(final_description) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(final_description) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(final_description) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(final_description) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(final_description) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'final_description' with type 'ros.ament_python' and name 'final_description'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(movement) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(movement) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(movement) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(movement) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(movement) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(movement) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(movement) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(movement) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(movement) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'movement' with type 'ros.ament_cmake' and name 'movement'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.403s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 477 installed packages in /opt/ros/humble
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'final_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description', 'merge_install': False, 'path': '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'movement' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'movement' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'movement' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'movement' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'movement' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'movement' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'movement' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'movement' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'movement' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'movement' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement', 'merge_install': False, 'path': '/home/boz/MEng-project-9-2023/simulation/urdf2/movement', 'symlink_install': False, 'test_result_base': None}
+[0.437s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.438s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description' with build type 'ament_python'
+[0.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_description', 'ament_prefix_path')
+[0.440s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/hook/ament_prefix_path.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/hook/ament_prefix_path.dsv'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/hook/ament_prefix_path.sh'
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description'
+[0.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description': PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/prefix_override:/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/final_description build --build-base /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build install --record /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/install.log --single-version-externally-managed install_data
+[1.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description' returned '0': PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/prefix_override:/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/final_description build --build-base /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build install --record /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/install.log --single-version-externally-managed install_data
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description' for CMake module files
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description' for CMake config files
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/bin'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/pkgconfig/final_description.pc'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages'
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_description', 'pythonpath')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/hook/pythonpath.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/hook/pythonpath.dsv'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/hook/pythonpath.sh'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/bin'
+[1.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(final_description)
+[1.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/package.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/package.dsv'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/package.sh'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/package.bash'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/package.zsh'
+[1.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/colcon-core/packages/final_description)
+[1.185s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/boz/MEng-project-9-2023/simulation/urdf2/movement' with build type 'ament_cmake'
+[1.185s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/boz/MEng-project-9-2023/simulation/urdf2/movement'
+[1.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement': AMENT_PREFIX_PATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/boz/MEng-project-9-2023/simulation/urdf2/build/movement -- -j32 -l32
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement' returned '0': AMENT_PREFIX_PATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/boz/MEng-project-9-2023/simulation/urdf2/build/movement -- -j32 -l32
+[1.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement': AMENT_PREFIX_PATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/boz/MEng-project-9-2023/simulation/urdf2/build/movement
+[1.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(movement)
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement' for CMake module files
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement' for CMake config files
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement' returned '0': AMENT_PREFIX_PATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/boz/MEng-project-9-2023/simulation/urdf2/build/movement
+[1.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('movement', 'cmake_prefix_path')
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/hook/cmake_prefix_path.ps1'
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/hook/cmake_prefix_path.dsv'
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/hook/cmake_prefix_path.sh'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/bin'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/lib/pkgconfig/movement.pc'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/lib/python3.10/site-packages'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/bin'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.ps1'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.dsv'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.sh'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.bash'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.zsh'
+[1.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/colcon-core/packages/movement)
+[1.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(movement)
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement' for CMake module files
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement' for CMake config files
+[1.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('movement', 'cmake_prefix_path')
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/hook/cmake_prefix_path.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/hook/cmake_prefix_path.dsv'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/hook/cmake_prefix_path.sh'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/bin'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/lib/pkgconfig/movement.pc'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/lib/python3.10/site-packages'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/bin'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.sh'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.bash'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.zsh'
+[1.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/colcon-core/packages/movement)
+[1.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.316s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.320s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.336s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.336s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/local_setup.ps1'
+[1.337s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/boz/MEng-project-9-2023/simulation/urdf2/install/_local_setup_util_ps1.py'
+[1.339s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/setup.ps1'
+[1.340s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/local_setup.sh'
+[1.341s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/boz/MEng-project-9-2023/simulation/urdf2/install/_local_setup_util_sh.py'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/setup.sh'
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/local_setup.bash'
+[1.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/setup.bash'
+[1.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/local_setup.zsh'
+[1.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boz/MEng-project-9-2023/simulation/urdf2/install/setup.zsh'

@@ -1,0 +1,21 @@
+running egg_info
+writing build/final_description/final_description.egg-info/PKG-INFO
+writing dependency_links to build/final_description/final_description.egg-info/dependency_links.txt
+writing entry points to build/final_description/final_description.egg-info/entry_points.txt
+writing requirements to build/final_description/final_description.egg-info/requires.txt
+writing top-level names to build/final_description/final_description.egg-info/top_level.txt
+reading manifest file 'build/final_description/final_description.egg-info/SOURCES.txt'
+writing manifest file 'build/final_description/final_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/gazebo.launch.py -> /home/boz/MEng-project-9-2023/simulation/urdf2/final_description/install/final_description/share/final_description/launch
+copying launch/display.launch.py -> /home/boz/MEng-project-9-2023/simulation/urdf2/final_description/install/final_description/share/final_description/launch
+copying urdf/final.urdf.xacro -> /home/boz/MEng-project-9-2023/simulation/urdf2/final_description/install/final_description/share/final_description/urdf
+running install_egg_info
+removing '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description/install/final_description/lib/python3.10/site-packages/final_description-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/final_description/final_description.egg-info to /home/boz/MEng-project-9-2023/simulation/urdf2/final_description/install/final_description/lib/python3.10/site-packages/final_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description/build/final_description/install.log'

@@ -1,0 +1,8 @@
+source;share/movement/hook/cmake_prefix_path.ps1
+source;share/movement/hook/cmake_prefix_path.dsv
+source;share/movement/hook/cmake_prefix_path.sh
+source;share/movement/local_setup.bash
+source;share/movement/local_setup.dsv
+source;share/movement/local_setup.ps1
+source;share/movement/local_setup.sh
+source;share/movement/local_setup.zsh

@@ -1,0 +1,59 @@
+[0.386s] Invoking command in '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description': PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/prefix_override:/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/final_description build --build-base /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build install --record /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/install.log --single-version-externally-managed install_data
+[0.537s] running egg_info
+[0.537s] creating ../build/final_description/final_description.egg-info
+[0.537s] writing ../build/final_description/final_description.egg-info/PKG-INFO
+[0.537s] writing dependency_links to ../build/final_description/final_description.egg-info/dependency_links.txt
+[0.537s] writing entry points to ../build/final_description/final_description.egg-info/entry_points.txt
+[0.537s] writing requirements to ../build/final_description/final_description.egg-info/requires.txt
+[0.537s] writing top-level names to ../build/final_description/final_description.egg-info/top_level.txt
+[0.537s] writing manifest file '../build/final_description/final_description.egg-info/SOURCES.txt'
+[0.538s] reading manifest file '../build/final_description/final_description.egg-info/SOURCES.txt'
+[0.539s] writing manifest file '../build/final_description/final_description.egg-info/SOURCES.txt'
+[0.539s] running build
+[0.539s] running build_py
+[0.539s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build
+[0.539s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build/lib
+[0.539s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build/lib/final_description
+[0.539s] copying final_description/__init__.py -> /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build/lib/final_description
+[0.539s] running install
+[0.539s] running install_lib
+[0.540s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages/final_description
+[0.540s] copying /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build/lib/final_description/__init__.py -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages/final_description
+[0.540s] byte-compiling /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages/final_description/__init__.py to __init__.cpython-310.pyc
+[0.540s] running install_data
+[0.540s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/ament_index
+[0.540s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/ament_index/resource_index
+[0.540s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/ament_index/resource_index/packages
+[0.540s] copying resource/final_description -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/ament_index/resource_index/packages
+[0.540s] copying package.xml -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description
+[0.540s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/launch
+[0.540s] copying launch/gazebo.launch.py -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/launch
+[0.540s] copying launch/display.launch.py -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/launch
+[0.540s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/urdf
+[0.540s] copying urdf/final.urdf.xacro -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/urdf
+[0.540s] copying urdf/final.trans -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/urdf
+[0.540s] copying urdf/final.gazebo -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/urdf
+[0.540s] copying urdf/materials.xacro -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/urdf
+[0.540s] copying urdf/camera.xacro -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/urdf
+[0.540s] copying urdf/example_gazebo.xacro -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/urdf
+[0.540s] copying urdf/example_include.xacro -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/urdf
+[0.540s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/meshes
+[0.541s] copying meshes/slider_2_feet_v2_1.stl -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/meshes
+[0.552s] copying meshes/base_link.stl -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/meshes
+[0.562s] copying meshes/slider_1_foot_v2__1__1.stl -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/meshes
+[0.563s] copying meshes/runner_plate_v1_1.stl -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/meshes
+[0.564s] copying meshes/slider_1_foot_v2_1.stl -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/meshes
+[0.564s] copying meshes/slider_2_feet_v2__1__1.stl -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/meshes
+[0.565s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/config
+[0.565s] copying config/display.rviz -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/config
+[0.565s] creating /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/worlds
+[0.565s] copying worlds/test_rig_v3.obj -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/worlds
+[0.567s] copying worlds/horizontal.stl -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/worlds
+[0.571s] copying worlds/test_rig_flange.dae -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/worlds
+[0.573s] copying worlds/test_world.world -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/worlds
+[0.573s] copying worlds/vertical.stl -> /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/share/final_description/worlds
+[0.576s] running install_egg_info
+[0.577s] Copying ../build/final_description/final_description.egg-info to /home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages/final_description-0.0.0-py3.10.egg-info
+[0.578s] running install_scripts
+[0.590s] writing list of installed files to '/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/install.log'
+[0.603s] Invoked command in '/home/boz/MEng-project-9-2023/simulation/urdf2/final_description' returned '0': PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/prefix_override:/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/final_description build --build-base /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/build install --record /home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description/install.log --single-version-externally-managed install_data

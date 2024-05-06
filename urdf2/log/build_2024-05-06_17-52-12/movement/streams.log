@@ -1,0 +1,71 @@
+[0.005s] Invoking command in '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement': AMENT_PREFIX_PATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/boz/MEng-project-9-2023/simulation/urdf2/build/movement -- -j32 -l32
+[0.011s] gmake[1]: Entering directory '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement'
+[0.031s] gmake[1]: Leaving directory '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement'
+[0.033s] Invoked command in '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement' returned '0': AMENT_PREFIX_PATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/boz/MEng-project-9-2023/simulation/urdf2/build/movement -- -j32 -l32
+[0.058s] Invoking command in '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement': AMENT_PREFIX_PATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/boz/MEng-project-9-2023/simulation/urdf2/build/movement
+[0.063s] -- Install configuration: ""
+[0.063s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/ament_index/resource_index/package_run_dependencies/movement
+[0.063s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/ament_index/resource_index/parent_prefix_path/movement
+[0.064s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/environment/path.sh
+[0.064s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/environment/path.dsv
+[0.064s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/local_setup.bash
+[0.064s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/local_setup.sh
+[0.064s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/local_setup.zsh
+[0.064s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/local_setup.dsv
+[0.065s] -- Installing: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.dsv
+[0.065s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/ament_index/resource_index/packages/movement
+[0.065s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/cmake/movementConfig.cmake
+[0.065s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/cmake/movementConfig-version.cmake
+[0.065s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/package.xml
+[0.065s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch
+[0.065s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch/demo.launch.py
+[0.065s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch/move_group.launch.py
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch/moveit_rviz.launch.py
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch/my_move.launch.py
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch/warehouse_db.launch.py
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch/gazebo.launch.py
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch/setup_assistant.launch.py
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch/rsp.launch.py
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch/spawn_controllers.launch.py
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/launch/static_virtual_joint_tfs.launch.py
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/final.urdf.xacro
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/final.srdf
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/build
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/build/.built_by
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/build/COLCON_IGNORE
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/sensors_3d.yaml
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/log
+[0.066s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/log/build_2024-04-22_23-04-09
+[0.067s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/log/build_2024-04-22_23-04-09/events.log
+[0.067s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/log/build_2024-04-22_23-04-09/logger_all.log
+[0.067s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/log/COLCON_IGNORE
+[0.067s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/log/latest_build
+[0.067s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/log/latest
+[0.067s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/joint_limits.yaml
+[0.067s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/kinematics.yaml
+[0.067s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/moveit.rviz
+[0.067s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/final.ros2_control.xacro
+[0.067s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/initial_positions.yaml
+[0.068s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install
+[0.068s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/local_setup.ps1
+[0.069s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/setup.ps1
+[0.069s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/local_setup.zsh
+[0.069s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/COLCON_IGNORE
+[0.070s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/local_setup.bash
+[0.070s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/_local_setup_util_ps1.py
+[0.070s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/local_setup.sh
+[0.070s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/setup.bash
+[0.070s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/.colcon_install_layout
+[0.070s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/setup.sh
+[0.070s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/setup.zsh
+[0.071s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/install/_local_setup_util_sh.py
+[0.071s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/moveit_controllers.yaml
+[0.071s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/pilz_cartesian_limits.yaml
+[0.071s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/config/ros2_controllers.yaml
+[0.071s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/examples
+[0.072s] -- Installing: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/examples/inchworm.cpp
+[0.072s] -- Up-to-date: /home/boz/MEng-project-9-2023/simulation/urdf2/install/movement/share/movement/.setup_assistant
+[0.072s] Invoked command in '/home/boz/MEng-project-9-2023/simulation/urdf2/build/movement' returned '0': AMENT_PREFIX_PATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/boz/MEng-project-9-2023/simulation/urdf2/build/movement

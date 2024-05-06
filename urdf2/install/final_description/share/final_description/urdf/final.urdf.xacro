@@ -1,0 +1,270 @@
+<?xml version="1.0" ?>
+<robot name="final" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find final_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find final_description)/urdf/final.trans" />
+<xacro:include filename="$(find final_description)/urdf/final.gazebo" />
+<xacro:include filename="example_include.xacro" />
+<xacro:include filename="example_gazebo.xacro" />
+<xacro:include filename="camera.xacro" />
+<link name="world"/>
+
+<joint name="world_to_base" type="fixed">
+  <origin xyz="0 0 0"/> 
+  <parent link="world"/>
+  <child link="base_link"/>
+</joint>
+
+
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="4.85908840472272e-06 -1.91838050849992e-06 -0.005460424324409752" rpy="0 0 0"/>
+    <mass value="2.4479449720803834"/>
+    <inertia ixx="0.010062" iyy="0.011184" izz="0.017517" ixy="-0.00666" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="slider_1_foot_v2_1">
+  <inertial>
+    <origin xyz="-0.056802327419834195 0.05627825060928909 0.0007994303385156151" rpy="0 0 0"/>
+    <mass value="0.4062191118166756"/>
+    <inertia ixx="0.00073" iyy="0.001572" izz="0.002276" ixy="0.000169" iyz="7e-06" ixz="4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.095006 0.05925 -0.043318" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/slider_1_foot_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.095006 0.05925 -0.043318" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/slider_1_foot_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="slider_2_feet_v2__1__1">
+  <inertial>
+    <origin xyz="0.04207465688675323 0.04525502600669221 -0.005682766352428134" rpy="0 0 0"/>
+    <mass value="0.5171772771794372"/>
+    <inertia ixx="0.001903" iyy="0.001998" izz="0.003858" ixy="0.000126" iyz="-8e-06" ixz="-7e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.094994 0.044 -0.049693" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/slider_2_feet_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.094994 0.044 -0.049693" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/slider_2_feet_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="slider_2_feet_v2_1">
+  <inertial>
+    <origin xyz="0.042074656886753777 0.03550502600669287 0.0006922336177701176" rpy="0 0 0"/>
+    <mass value="0.5171772771794372"/>
+    <inertia ixx="0.001903" iyy="0.001998" izz="0.003858" ixy="0.000126" iyz="-8e-06" ixz="-7e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.094994 0.03425 0.004682" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/slider_2_feet_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.094994 0.03425 0.004682" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/slider_2_feet_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="slider_1_foot_v2__1__1">
+  <inertial>
+    <origin xyz="-0.056802327419834084 0.06077825060929012 0.0007994303385151754" rpy="0 0 0"/>
+    <mass value="0.4062191118166756"/>
+    <inertia ixx="0.00073" iyy="0.001572" izz="0.002276" ixy="0.000169" iyz="7e-06" ixz="4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.095006 0.06375 0.004682" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/slider_1_foot_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.095006 0.06375 0.004682" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/slider_1_foot_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="runner_plate_v1_1">
+  <inertial>
+    <origin xyz="4.3258708478064315e-06 -1.3989412496641902e-06 0.036981658055267305" rpy="0 0 0"/>
+    <mass value="1.7398151548922323"/>
+    <inertia ixx="0.008427" iyy="0.009494" izz="0.017297" ixy="-0.006661" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 0.0 -0.001" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/runner_plate_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 -0.001" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find final_description)/meshes/runner_plate_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Slider_2" type="prismatic">
+  <origin xyz="0.095006 -0.05925 0.042318" rpy="0 0 0"/>
+  <parent link="runner_plate_v1_1"/>
+  <child link="slider_1_foot_v2_1"/>
+  <axis xyz="1 0 0"/>
+  <limit upper="0.135" lower="0.0" effort="100" velocity="100"/>
+
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+<joint name="Slider_6" type="prismatic">
+  <origin xyz="-0.094994 -0.044 0.048693" rpy="0 0 0"/>
+  <parent link="runner_plate_v1_1"/>
+  <child link="slider_2_feet_v2__1__1"/>
+  <axis xyz="-1 0 0"/>
+  <limit upper="0.135" lower="0.0" effort="100" velocity="100"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+<joint name="Slider_7" type="prismatic">
+  <origin xyz="-0.094994 -0.03425 -0.004682" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="slider_2_feet_v2_1"/>
+  <axis xyz="-1 0 0"/>
+  <limit upper="0.135" lower="0.0" effort="100" velocity="100"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+<joint name="Slider_8" type="prismatic">
+  <origin xyz="0.095006 -0.06375 -0.004682" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="slider_1_foot_v2__1__1"/>
+  <axis xyz="1 0 0"/>
+  <limit upper="0.135" lower="0.0" effort="100" velocity="100"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+<joint name="Slider_9" type="prismatic">
+  <origin xyz="0.0 0.0 0.001" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="runner_plate_v1_1"/>
+  <axis xyz="0 0 1"/>
+  <limit upper="0.15" lower="0" effort="100" velocity="100"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+
+<ros2_control name="IgnitionSystem" type="system">
+        <hardware>
+            <plugin>ign_ros2_control/IgnitionSystem</plugin>
+        </hardware>
+        <joint name="Slider_2">
+            <command_interface name="position">
+                <param name="min">0</param>
+                <param name="max">0.135</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <joint name="Slider_6">
+            <command_interface name="position">
+                <param name="min">0</param>
+                <param name="max">0.135</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="Slider_7">
+            <command_interface name="position">
+                <param name="min">0</param>
+                <param name="max">0.135</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="Slider_8">
+            <command_interface name="position">
+                <param name="min">0</param>
+                <param name="max">0.135</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="Slider_9">
+            <command_interface name="position">
+                <param name="min">0</param>
+                <param name="max">0.15</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+
+        
+</ros2_control>
+
+
+
+
+  <gazebo>
+    <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+      <parameters>$(find movement)/config/ros2_controllers.yaml</parameters>
+
+    </plugin>
+
+    <plugin
+      filename="ignition-gazebo-imu-system"
+      name="ignition::gazebo::systems::Imu">
+    </plugin>
+  </gazebo>
+
+
+
+
+</robot>

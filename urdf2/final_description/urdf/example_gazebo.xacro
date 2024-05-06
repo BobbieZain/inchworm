@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+
+    <gazebo>
+        <plugin name="ignition::gazebo::systems::JointStatePublisher"
+            filename="ignition-gazebo-joint-state-publisher-system">
+            <update_rate>20</update_rate>
+            <joint_name>world_to_base</joint_name>
+            <joint_name>Slider_2</joint_name>
+            <joint_name>Slider_6</joint_name>
+            <joint_name>Slider_7</joint_name>
+            <joint_name>Slider_8</joint_name>
+            <joint_name>Slider_9</joint_name>
+
+        </plugin>
+
+    
+    </gazebo>
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"></node>
+ 
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node>
+
+
+
+   
+
+
+    <gazebo>
+        <plugin filename="libignition-gazebo-sensors-system.so" name="ignition::gazebo::systems::Sensors">
+            <render_engine>ogre2</render_engine>
+        </plugin>
+    </gazebo> 
+
+
+
+</robot>
