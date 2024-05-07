@@ -1,2 +1,0 @@
-Invoking command in '/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description': /usr/bin/cmake /home/boz/MEng-project-9-2023/simulation/urdf2/final_description -DCMAKE_INSTALL_PREFIX=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description
-Invoked command in '/home/boz/MEng-project-9-2023/simulation/urdf2/build/final_description' returned '1': /usr/bin/cmake /home/boz/MEng-project-9-2023/simulation/urdf2/final_description -DCMAKE_INSTALL_PREFIX=/home/boz/MEng-project-9-2023/simulation/urdf2/install/final_description
