@@ -7,13 +7,6 @@
 <xacro:include filename="example_include.xacro" />
 <xacro:include filename="example_gazebo.xacro" />
 <xacro:include filename="camera.xacro" />
-<link name="world"/>
-
-<joint name="world_to_base" type="fixed">
-  <origin xyz="0 0 0"/> 
-  <parent link="world"/>
-  <child link="base_link"/>
-</joint>
 
 
 
@@ -249,19 +242,27 @@
         
 </ros2_control>
 
+  <gazebo reference = "runner_plate_v1_1">
+    <plugin
+      filename="ignition-gazebo-imu-system"
+      name="ignition::gazebo::systems::Imu">
 
-
-
+      
+    </plugin>
+    <sensor name="imu_sensor" type="imu">
+      <always_on>1</always_on>
+      <update_rate>1</update_rate>
+      <visualize>true</visualize>
+      <topic>imu</topic>
+    </sensor>
+  </gazebo>
   <gazebo>
     <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
       <parameters>$(find movement)/config/ros2_controllers.yaml</parameters>
 
     </plugin>
 
-    <plugin
-      filename="ignition-gazebo-imu-system"
-      name="ignition::gazebo::systems::Imu">
-    </plugin>
+
   </gazebo>
 
 

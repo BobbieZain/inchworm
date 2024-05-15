@@ -127,6 +127,13 @@ def generate_launch_description():
         output='screen'
     )
 
+    imu = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=['/imu@sensor_msgs/msg/Imu[gz.msgs.IMU'],
+        output='screen'
+    )
+    #point cloud bridge
 
 
 
@@ -135,6 +142,7 @@ def generate_launch_description():
     return LaunchDescription([
         gz_sim,
         gui_arg,
+
         bridge,
         joint_state_publisher_node,
         RegisterEventHandler(

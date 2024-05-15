@@ -4,10 +4,15 @@
 
 
     <gazebo>
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_link</robot_base_frame>
+
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>true</publish_odom_tf>
+
         <plugin name="ignition::gazebo::systems::JointStatePublisher"
             filename="ignition-gazebo-joint-state-publisher-system">
             <update_rate>20</update_rate>
-            <joint_name>world_to_base</joint_name>
             <joint_name>Slider_2</joint_name>
             <joint_name>Slider_6</joint_name>
             <joint_name>Slider_7</joint_name>

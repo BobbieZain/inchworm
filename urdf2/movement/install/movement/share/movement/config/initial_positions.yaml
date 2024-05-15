@@ -1,8 +1,0 @@
-# Default initial positions for final's ros2_control fake system
-
-initial_positions:
-  Slider 2: 0
-  Slider 6: 0
-  Slider 7: 0
-  Slider 8: 0
-  Slider 9: 0

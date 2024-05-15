@@ -1,9 +1,0 @@
-/home/boz/MEng-project-9-2023/simulation/urdf2/movement/build/movement/CMakeFiles/uninstall.dir
-/home/boz/MEng-project-9-2023/simulation/urdf2/movement/build/movement/CMakeFiles/movement_uninstall.dir
-/home/boz/MEng-project-9-2023/simulation/urdf2/movement/build/movement/CMakeFiles/test.dir
-/home/boz/MEng-project-9-2023/simulation/urdf2/movement/build/movement/CMakeFiles/edit_cache.dir
-/home/boz/MEng-project-9-2023/simulation/urdf2/movement/build/movement/CMakeFiles/rebuild_cache.dir
-/home/boz/MEng-project-9-2023/simulation/urdf2/movement/build/movement/CMakeFiles/list_install_components.dir
-/home/boz/MEng-project-9-2023/simulation/urdf2/movement/build/movement/CMakeFiles/install.dir
-/home/boz/MEng-project-9-2023/simulation/urdf2/movement/build/movement/CMakeFiles/install/local.dir
-/home/boz/MEng-project-9-2023/simulation/urdf2/movement/build/movement/CMakeFiles/install/strip.dir

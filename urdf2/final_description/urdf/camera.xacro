@@ -4,7 +4,7 @@
     <joint name="camera_joint" type="fixed">
         <parent link="runner_plate_v1_1"/>
         <child link="camera_link"/>
-        <origin xyz="0.276 0 0.181" rpy="0 0.18 0"/>
+        <origin xyz="-0.05 0 0.075" rpy="0 -1.57 0"/>
     </joint>
 
     <link name="camera_link">
@@ -12,22 +12,16 @@
             <geometry>
                 <box size="0.010 0.03 0.03"/>
             </geometry>
-            <material name="black"/>
+            <material name="blue"/>
         </visual>
-        <visual>
-            <origin xyz="0 0 -0.05"/>
-            <geometry>
-                <cylinder radius="0.002" length="0.1"/>
-            </geometry>
-            <material name="black"/>
-        </visual>
+
     </link>
 
 
     <joint name="camera_optical_joint" type="fixed">
         <parent link="camera_link"/>
         <child link="camera_link_optical"/>
-        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
     </joint>
 
     <link name="camera_link_optical"></link>
@@ -63,9 +57,9 @@
 
 
     <joint name="depth_camera_joint" type="fixed">
-        <parent link="runner_plate_v1_2"/>
+        <parent link="runner_plate_v1_1"/>
         <child link="depth_camera_link"/>
-        <origin xyz="0.305 0 0.08" rpy="0 0 0"/>
+        <origin xyz="0.05 0 0.075" rpy="0 -1.57 0"/>
     </joint>
 
     <link name="depth_camera_link">
@@ -92,7 +86,7 @@
         <material>orange</material>
 
         <sensor name="depth_camera" type="depth">
-            <pose> 0 0 0 0 0 0 </pose>
+            <pose> 0 0 0 0 1.57 0 </pose>
             <visualize>true</visualize>
             <update_rate>10</update_rate>
             <camera>
